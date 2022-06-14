@@ -38,8 +38,8 @@ class MyApp extends StatelessWidget {
             return Navigation();
           } else if (snapshot.hasError) {
             print("không được chỗ này");
-            return Text("${snapshot.error}");
-           // return Navigation();
+           // return Text("${snapshot.error}");
+            return Navigation();
           }
 
           return LoadingScreen();
